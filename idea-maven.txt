@@ -56,16 +56,16 @@ artifactId --> 项目的名称
 	
   web Maven 目录结构
 	--默认建立没有java目录（需要手工创建）
-		|-src
+    |-src
     |---main
     |-----java
-		|-----resources
-		|-----webapp
+    |-----resources
+    |-----webapp
     |-------WEB-INF (自动生成)
-		|---test
+    |---test
     |-----java
 	
-	--web 项目不适合给第三方团队使用 war
+     --web 项目不适合给第三方团队使用 war
   
   父子工程 目录结构
     |-boke  -- 父项目
